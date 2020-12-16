@@ -61,7 +61,7 @@ int main()
     root->right->left = new TreeNode(6);
     root->right->right = new TreeNode(7);
     root->left->left->left = new TreeNode(8);
-    // root->left->right->left = new TreeNode(9);
+    root->left->right->left = new TreeNode(9);
 
     cout<< isComplete(root, sizeOfTree(root));
 }
