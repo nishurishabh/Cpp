@@ -1,3 +1,7 @@
+// Ques:  Do a spiral order traversal  traversal of a binary tree
+// https://www.techiedelight.com/spiral-order-traversal-binary-tree/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -66,6 +70,3 @@ int main()
     root->right->right->left = new TreeNode(9);
     spiralTraversal(root);
 }
-
-// Tree: 1,2,3,4,5,6,7
-// Output: 1 2 3 7 6 5 4
