@@ -8,7 +8,6 @@ vector<vector<int>> threeSum(vector<int>& nums) {
         int n=nums.size();
         for(int i=0; i<n-2; i++)
         {
-            cout << nums[i] <<endl;
             int target = -nums[i], low=i+1, high=n-1;
             while(low < high)
             {
