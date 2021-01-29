@@ -1,0 +1,6 @@
+1. Copy Linked Lists with Random Pointers
+2. LRU Cache
+3. Word Break
+4. Word Ladder
+5. All Substrings Problem 
+6. LCA (Both BST and Binary Tree)
